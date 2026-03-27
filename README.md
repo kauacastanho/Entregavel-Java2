@@ -2,7 +2,7 @@
 
 
 ## Funcionalidades à serem implementadas
-- [Desmarcar consulta](Funcionalidade_!)
+- [Desmarcar consulta](Funcionalidade_1)
 - [Listar todas as consultas marcadas](Funcionalidade_2)
 - Remarcar Consulta
 - Datas disponíveis
