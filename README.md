@@ -11,8 +11,8 @@
 - Remarcar Consulta
   - Permite alterar a data e/ou horário de uma consulta existente, mantendo o mesmo paciente, médico e especialidade
 
-- Datas disponíveis
-  - Mostra ao usuário quais datas ainda estão livres para agendamento de consultas
+- validar a Entrada do usuário
+  - Validar a resposta do usuário para verificar se os dados digitados (CPF, nome, data, telefone, etc.) estão no formato correto e não estão vazios ou inválidos.
 
 - Cadastro de médicos
   - Permite cadastrar médicos no sistema com informações como nome e especialidade para que possam ser vinculados às consultas
