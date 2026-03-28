@@ -165,6 +165,15 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         SistemaHospital sistema = new SistemaHospital();
 
+        
+        // CADASTROS AUTOMÁTICOS PARA TESTE
+        SistemaHospital sistema_teste = new SistemaHospital();
+        sistema_teste.cadastrarPaciente("João Silva", "111", 30, "9999-1111");
+        sistema_teste.cadastrarPaciente("Maria Souza", "222", 25, "9999-2222");
+
+        sistema_teste.agendarConsulta("111", "20", "10:00", "Cardiologia", "Dr. Carlos");
+        sistema_teste.agendarConsulta("222", "21", "14:00", "Pediatria", "Dra. Ana");
+
         while (true) {
             System.out.println("\nMenu:");
             System.out.println("1 - Cadastrar Paciente");
