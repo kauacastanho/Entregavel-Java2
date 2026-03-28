@@ -3,11 +3,23 @@
 
 ## Funcionalidades à serem implementadas
 - [Desmarcar consulta](Funcionalidade_1.md)
+  - Permite cancelar uma consulta já agendada, removendo ela da lista de consultas do sistema
+    
 - [Listar todas as consultas marcadas](Funcionalidade_2.md)
+  - Exibe todas as consultas cadastradas no sistema com informações do paciente, médico, data, horário e especialidade
+
 - Remarcar Consulta
+  - Permite alterar a data e/ou horário de uma consulta existente, mantendo o mesmo paciente, médico e especialidade
+
 - Datas disponíveis
+  - Mostra ao usuário quais datas ainda estão livres para agendamento de consultas
+
 - Cadastro de médicos
+  - Permite cadastrar médicos no sistema com informações como nome e especialidade para que possam ser vinculados às consultas
+
 - Ordernar consultas por data e horário
+  - Organiza a lista de consultas em ordem cronológica, mostrando primeiro as consultas mais próximas e depois as mais distantes
+
 
 ### Código Completo
 
