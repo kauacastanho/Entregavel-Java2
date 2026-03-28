@@ -13,7 +13,6 @@
 
 ```java
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 class Paciente {
@@ -76,7 +75,6 @@ class Consulta {
 class SistemaHospital {
     private ArrayList<Paciente> pacientes = new ArrayList<>();
     private ArrayList<Consulta> consultas = new ArrayList<>();
-    List<Integer> numeros = new ArrayList<>(List.of(23,22,21,20));
 
     public void cadastrarPaciente(String nome, String cpf, int idade, String telefone) {
         pacientes.add(new Paciente(nome, cpf, idade, telefone));
