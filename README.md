@@ -2,8 +2,8 @@
 
 
 ## Funcionalidades à serem implementadas
-- [Desmarcar consulta](Funcionalidade_1)
-- [Listar todas as consultas marcadas](Funcionalidade_2)
+- [Desmarcar consulta](Funcionalidade_1.md)
+- [Listar todas as consultas marcadas](Funcionalidade_2.md)
 - Remarcar Consulta
 - Datas disponíveis
 - Cadastro de médicos
